@@ -13,8 +13,8 @@ variables:
   buildConfiguration: 'Release'
 
 stages:
-  - stage: build
-    jobs: 
-      - job: A1
-        steps:
-        - script: echo "hello world"
+- stage: build
+  jobs: 
+  - job: A1
+    steps:
+    - script: echo "hello world"
